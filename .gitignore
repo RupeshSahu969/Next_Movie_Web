@@ -5,10 +5,10 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-
+.env.local
 # testing
 /coverage
-.env.local
+
 # next.js
 /.next/
 /out/
@@ -34,6 +34,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Local Netlify folder
-.netlify
