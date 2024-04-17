@@ -1,13 +1,10 @@
 import Link from 'next/link';
-
+import MenuItem from './MenuItem';
 import { AiFillHome } from 'react-icons/ai';
 import { BsFillInfoCircleFill } from 'react-icons/bs';
-import { MenuItem } from './MenuItem';
 import DarkModeSwitch from './DarkModeSwitch';
 
-
-export default function Header() 
-{
+export default function Header() {
   return (
     <div className='flex justify-between items-center p-3 max-w-6xl mx-auto'>
       <div className='flex gap-4'>
